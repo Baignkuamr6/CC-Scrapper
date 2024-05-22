@@ -14,21 +14,21 @@ from aiogram import Bot, Dispatcher, types, executor
 from pyrogram import Client
 
 # Aiogram setup
-BOT_TOKEN = "12345678:ABCDEFGHIJKLMNOPQRST"   # Replace this BOT_TOKEN
+BOT_TOKEN = "6590714139:AAHxz8AfmTmVfadmYU9S0RSCzH6faSAP8CU"   # Replace this BOT_TOKEN
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
 # Pyrogram setup
-api_id = "12345678"   # Replace this API ID with your actual API ID
-api_hash = "1234567890abcdefghijk"  # Replace this API ID with your actual API HASH
-phone_number = "+1901234567"    # Replace this API ID with your phone number
+api_id = "23803587"   # Replace this API ID with your actual API ID
+api_hash = "488a11ca211efe50b769cdc12e82fea7"  # Replace this API ID with your actual API HASH
+phone_number = "+918987387693"    # Replace this API ID with your phone number
 
 user_client = Client("my_account", api_id=api_id, api_hash=api_hash, phone_number=phone_number)
 
 scrape_queue = asyncio.Queue()
 
 # Define admin user IDs
-admin_ids = [12345678, 12345678]
+admin_ids = [1971950836, 1971950836]
 
 default_limit = 10000  # Max limit for any user
 admin_limit = 50000    # Max limit for admin users
